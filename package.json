@@ -1,0 +1,37 @@
+{
+  "name": "fivem-vehicle-validator",
+  "version": "1.0.0",
+  "description": "Validate FiveM vehicle resources - check fxmanifest, meta files, YTD sizes, texture compression, and folder structure",
+  "main": "src/index.js",
+  "bin": {
+    "fivem-validate": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "keywords": [
+    "fivem",
+    "gta5",
+    "gtav",
+    "vehicle",
+    "validator",
+    "fxmanifest",
+    "ytd",
+    "yft",
+    "texture",
+    "resource",
+    "addon",
+    "fivem-resource",
+    "gta5-mods"
+  ],
+  "author": "FiveMRides <dev@fivemrides.com> (https://fivemrides.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PrestigeRoleplay/fivem-vehicle-validator"
+  },
+  "homepage": "https://fivemrides.com",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
